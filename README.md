@@ -44,7 +44,7 @@ expense-tracker/
 ├── expense_tracker.py   # Main program
 ├── expense.py           # Expense class definition
 ├── expenses.csv         # Data storage file
-└── images/              # (Optional) screenshots
+└── images/              # Screenshots
 
 ---
 
@@ -67,35 +67,6 @@ cd Expense-Tracker-App
 
 ### 3. Run the Program
 python expense_tracker.py
-
----
-
-## How It Works
-1. User enters:
-   -> Expense name
-   -> Amount
-   -> Category
-
-2. Expense is saved into: expenses.csv
-
-3. Program:
-   -> Reads all expenses
-   -> Groups by category
-   -> Calculates:
-     -> Total spent
-     -> Remaining budget
-     -> Daily budget
-
----
-
-## Example Output
-Expenses By Category:
-  Food: $500.00
-  Work: $300.00
-  Total Spent: $800.00
-  Budget Remaining: $1200.00
-  Budget Per Day: $40.00
-```
 
 ---
 
